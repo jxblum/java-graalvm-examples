@@ -1,11 +1,5 @@
 [
 {
-  "name":"[F"}
-,
-{
-  "name":"[I"}
-,
-{
   "name":"[Lcom.fasterxml.jackson.databind.deser.Deserializers;"}
 ,
 {
@@ -4722,15 +4716,9 @@
   ]}
 ,
 {
-  "name":"org.springframework.boot.autoconfigure.data.neo4j.Neo4jDataAutoConfiguration"}
-,
-{
   "name":"org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializerDatabaseInitializerDetector",
   "queryAllDeclaredConstructors":true,
   "methods":[{"name":"<init>","parameterTypes":[] }]}
-,
-{
-  "name":"org.springframework.boot.autoconfigure.gson.GsonAutoConfiguration"}
 ,
 {
   "name":"org.springframework.boot.autoconfigure.http.GsonHttpMessageConvertersConfiguration"}
@@ -4885,9 +4873,6 @@
   "name":"org.springframework.boot.autoconfigure.jms.artemis.ArtemisAutoConfiguration"}
 ,
 {
-  "name":"org.springframework.boot.autoconfigure.jsonb.JsonbAutoConfiguration"}
-,
-{
   "name":"org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener",
   "methods":[{"name":"<init>","parameterTypes":[] }]}
 ,
@@ -4899,9 +4884,6 @@
 ,
 {
   "name":"org.springframework.boot.autoconfigure.sql.init.DataSourceInitializationConfiguration"}
-,
-{
-  "name":"org.springframework.boot.autoconfigure.sql.init.R2dbcInitializationConfiguration"}
 ,
 {
   "name":"org.springframework.boot.autoconfigure.sql.init.SqlInitializationAutoConfiguration",
@@ -4989,9 +4971,6 @@
   "queryAllDeclaredConstructors":true,
   "methods":[{"name":"<init>","parameterTypes":[] }],
   "queriedMethods":[{"name":"customize","parameterTypes":["org.springframework.transaction.PlatformTransactionManager"] }]}
-,
-{
-  "name":"org.springframework.boot.autoconfigure.transaction.jta.AtomikosJtaConfiguration"}
 ,
 {
   "name":"org.springframework.boot.autoconfigure.transaction.jta.JndiJtaConfiguration"}
@@ -6149,12 +6128,6 @@
   "queryAllPublicMethods":true}
 ,
 {
-  "name":"org.springframework.data.querydsl.QuerydslPredicateExecutor"}
-,
-{
-  "name":"org.springframework.data.querydsl.ReactiveQuerydslPredicateExecutor"}
-,
-{
   "name":"org.springframework.data.repository.CrudRepository",
   "queryAllDeclaredMethods":true,
   "queryAllPublicMethods":true}
@@ -6229,9 +6202,6 @@
 {
   "name":"org.springframework.data.repository.query.QueryLookupStrategy$Key",
   "queryAllDeclaredMethods":true}
-,
-{
-  "name":"org.springframework.data.repository.query.ReactiveQueryByExampleExecutor"}
 ,
 {
   "name":"org.springframework.data.util.Streamable",
@@ -6481,9 +6451,6 @@
   "methods":[{"name":"<init>","parameterTypes":[] }]}
 ,
 {
-  "name":"org.springframework.http.ReactiveHttpInputMessage"}
-,
-{
   "name":"org.springframework.http.codec.CodecConfigurer"}
 ,
 {
@@ -6543,9 +6510,6 @@
   ]}
 ,
 {
-  "name":"org.springframework.http.converter.json.GsonHttpMessageConverter"}
-,
-{
   "name":"org.springframework.http.converter.json.Jackson2ObjectMapperBuilder",
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true}
@@ -6556,9 +6520,6 @@
   "queryAllDeclaredMethods":true}
 ,
 {
-  "name":"org.springframework.http.server.reactive.HttpHandler"}
-,
-{
   "name":"org.springframework.jmx.export.MBeanExporter"}
 ,
 {
@@ -6566,9 +6527,6 @@
 ,
 {
   "name":"org.springframework.lang.Nullable"}
-,
-{
-  "name":"org.springframework.mail.javamail.JavaMailSenderImpl"}
 ,
 {
   "name":"org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor"}
@@ -6654,9 +6612,6 @@
   "name":"org.springframework.transaction.PlatformTransactionManager"}
 ,
 {
-  "name":"org.springframework.transaction.ReactiveTransactionManager"}
-,
-{
   "name":"org.springframework.transaction.TransactionManager"}
 ,
 {
@@ -6681,9 +6636,6 @@
 ,
 {
   "name":"org.springframework.web.client.RestTemplate"}
-,
-{
-  "name":"org.springframework.web.context.support.GenericWebApplicationContext"}
 ,
 {
   "name":"sun.misc.Unsafe",
