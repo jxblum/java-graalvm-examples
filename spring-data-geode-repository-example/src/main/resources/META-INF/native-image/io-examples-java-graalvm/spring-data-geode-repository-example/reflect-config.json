@@ -57,7 +57,9 @@
   "allDeclaredFields":true,
   "allDeclaredClasses":true,
   "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true}
+  "queryAllDeclaredConstructors":true,
+  "methods": [{"name":"<init>","parameterTypes":[]}]
+}
 ,
 {
   "name":"io.examples.app.spring.data.geode.ExampleSpringDataGeodeApplication$ApplicationConfiguration",
@@ -75,8 +77,9 @@
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
   "methods":[
-    {"name":"userRepository","parameterTypes":[] },
-    {"name":"usersRegion","parameterTypes":["org.apache.geode.cache.GemFireCache"] }
+    {"name":"<init>","parameterTypes":[]},
+    {"name":"usersRegion","parameterTypes":["org.apache.geode.cache.GemFireCache"]},
+    {"name":"userRepository","parameterTypes":[]}
   ]}
 ,
 {
