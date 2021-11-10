@@ -1,0 +1,1 @@
+-agentlib:native-image-agent=config-merge-dir=/Users/jblum/pivdev/java-graalvm-examples/spring-data-geode-repository-example/src/main/resources/META-INF/native-image/io-examples-java-graalvm/spring-data-geode-repository-example
