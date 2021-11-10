@@ -32,7 +32,6 @@ import lombok.Setter;
  * @see org.apache.geode.distributed.ConfigurationProperties
  * @since 1.0.0
  */
-@Getter
 @SuppressWarnings("unused")
 public class ApacheGeodeApplication implements Runnable {
 
@@ -71,6 +70,7 @@ public class ApacheGeodeApplication implements Runnable {
 		return clientCache;
 	}
 
+	@Getter(AccessLevel.PROTECTED)
 	private final GemFireCache cache;
 
 	public ApacheGeodeApplication() {
