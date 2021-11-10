@@ -1,0 +1,14 @@
+[
+  {
+    "name":"io.examples.app.spring.data.geode.ExampleSpringDataGeodeApplication$User"
+  },
+  {
+    "name":"java.lang.Long"
+  },
+  {
+    "name":"java.lang.Number"
+  },
+  {
+    "name":"java.lang.String"
+  }
+]

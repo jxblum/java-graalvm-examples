@@ -1,0 +1,24 @@
+{
+  "resources":{
+  "includes":[
+    {
+      "pattern":"\\QMETA-INF/services/org.apache.geode.internal.cache.CacheService\\E"
+    }, 
+    {
+      "pattern":"\\QMETA-INF/services/org.apache.logging.log4j.spi.Provider\\E"
+    }, 
+    {
+      "pattern":"\\QMETA-INF/services/org.apache.logging.log4j.util.PropertySource\\E"
+    }, 
+    {
+      "pattern":"\\Qgemfire.properties\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/apache/geode/internal/GemFireVersion.properties\\E"
+    }, 
+    {
+      "pattern":"\\Qorg/slf4j/impl/StaticLoggerBinder.class\\E"
+    }
+  ]},
+  "bundles":[]
+}

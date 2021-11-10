@@ -1,0 +1,2097 @@
+[
+{
+  "name":"com.sun.management.GarbageCollectionNotificationInfo"}
+,
+{
+  "name":"com.sun.management.GcInfo",
+  "fields":[
+    {"name":"builder"},
+    {"name":"extAttributes"}
+  ],
+  "queriedMethods":[{"name":"getMemoryUsageBeforeGc","parameterTypes":[] }]}
+,
+{
+  "name":"com.sun.management.OperatingSystemMXBean",
+  "queriedMethods":[
+    {"name":"getProcessCpuLoad","parameterTypes":[] },
+    {"name":"getSystemCpuLoad","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.sun.management.UnixOperatingSystemMXBean",
+  "queriedMethods":[
+    {"name":"getMaxFileDescriptorCount","parameterTypes":[] },
+    {"name":"getOpenFileDescriptorCount","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"com.sun.tools.attach.VirtualMachine"}
+,
+{
+  "name":"com.sun.tools.attach.VirtualMachineDescriptor"}
+,
+{
+  "name":"io.examples.app.geode.User"}
+,
+{
+  "name":"java.lang.Boolean",
+  "fields":[{"name":"TYPE"}]}
+,
+{
+  "name":"java.lang.Byte",
+  "fields":[{"name":"TYPE"}]}
+,
+{
+  "name":"java.lang.Character",
+  "fields":[{"name":"TYPE"}]}
+,
+{
+  "name":"java.lang.Double",
+  "fields":[{"name":"TYPE"}]}
+,
+{
+  "name":"java.lang.Float",
+  "fields":[{"name":"TYPE"}]}
+,
+{
+  "name":"java.lang.Integer",
+  "fields":[{"name":"TYPE"}]}
+,
+{
+  "name":"java.lang.Long",
+  "fields":[{"name":"TYPE"}]}
+,
+{
+  "name":"java.lang.Number"}
+,
+{
+  "name":"java.lang.Short",
+  "fields":[{"name":"TYPE"}]}
+,
+{
+  "name":"java.lang.String"}
+,
+{
+  "name":"java.lang.Void",
+  "fields":[{"name":"TYPE"}]}
+,
+{
+  "name":"java.lang.management.MemoryUsage",
+  "queryAllPublicMethods":true,
+  "methods":[{"name":"from","parameterTypes":["javax.management.openmbean.CompositeData"] }]}
+,
+{
+  "name":"java.math.BigDecimal"}
+,
+{
+  "name":"java.math.BigInteger"}
+,
+{
+  "name":"java.security.SecureRandomParameters"}
+,
+{
+  "name":"java.util.Date"}
+,
+{
+  "name":"javax.management.ObjectName"}
+,
+{
+  "name":"org.apache.geode.admin.internal.SystemMemberCacheEventProcessor$SystemMemberCacheMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.admin.jmx.internal.StatAlertNotification",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.AttributesFactory$RegionAttributesImpl"}
+,
+{
+  "name":"org.apache.geode.cache.client.internal.CacheServerLoadMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.client.internal.locator.ClientConnectionRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.client.internal.locator.ClientConnectionResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.client.internal.locator.ClientReplacementRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.client.internal.locator.GetAllServersRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.client.internal.locator.GetAllServersResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.client.internal.locator.LocatorListRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.client.internal.locator.LocatorListResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.client.internal.locator.LocatorStatusRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.client.internal.locator.LocatorStatusResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.client.internal.locator.QueueConnectionRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.client.internal.locator.QueueConnectionResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.query.internal.CqEntry",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.query.internal.CumulativeNonDistinctResults",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.query.internal.LinkedResultSet",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.query.internal.LinkedStructSet",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.query.internal.NWayMergeResults",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.query.internal.PRQueryTraceInfo",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.query.internal.ResultsCollectionWrapper",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.query.internal.ResultsSet",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.query.internal.SortedResultSet",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.query.internal.SortedStructSet",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.query.internal.StructBag",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.query.internal.StructImpl",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.query.internal.StructSet",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.query.internal.Undefined",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.query.internal.index.IndexCreationData",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.query.internal.types.CollectionTypeImpl",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.query.internal.types.MapTypeImpl",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.query.internal.types.ObjectTypeImpl",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.cache.query.internal.types.StructTypeImpl",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.AbstractDistributionConfig",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"checkLocators","parameterTypes":["java.lang.String"] },
+    {"name":"checkMcastPort","parameterTypes":["int"] }
+  ]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.DistributionAdvisor$Profile",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.DistributionConfig",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"getAckSevereAlertThreshold","parameterTypes":[] },
+    {"name":"getAckWaitThreshold","parameterTypes":[] },
+    {"name":"getArchiveDiskSpaceLimit","parameterTypes":[] },
+    {"name":"getArchiveFileSizeLimit","parameterTypes":[] },
+    {"name":"getAsyncDistributionTimeout","parameterTypes":[] },
+    {"name":"getAsyncMaxQueueSize","parameterTypes":[] },
+    {"name":"getAsyncQueueTimeout","parameterTypes":[] },
+    {"name":"getBindAddress","parameterTypes":[] },
+    {"name":"getCacheXmlFile","parameterTypes":[] },
+    {"name":"getClientConflation","parameterTypes":[] },
+    {"name":"getClusterConfigDir","parameterTypes":[] },
+    {"name":"getClusterSSLAlias","parameterTypes":[] },
+    {"name":"getClusterSSLCiphers","parameterTypes":[] },
+    {"name":"getClusterSSLEnabled","parameterTypes":[] },
+    {"name":"getClusterSSLKeyStore","parameterTypes":[] },
+    {"name":"getClusterSSLKeyStorePassword","parameterTypes":[] },
+    {"name":"getClusterSSLKeyStoreType","parameterTypes":[] },
+    {"name":"getClusterSSLProtocols","parameterTypes":[] },
+    {"name":"getClusterSSLRequireAuthentication","parameterTypes":[] },
+    {"name":"getClusterSSLTrustStore","parameterTypes":[] },
+    {"name":"getClusterSSLTrustStorePassword","parameterTypes":[] },
+    {"name":"getConserveSockets","parameterTypes":[] },
+    {"name":"getDeltaPropagation","parameterTypes":[] },
+    {"name":"getDeployWorkingDir","parameterTypes":[] },
+    {"name":"getDisableAutoReconnect","parameterTypes":[] },
+    {"name":"getDisableJmx","parameterTypes":[] },
+    {"name":"getDisableTcp","parameterTypes":[] },
+    {"name":"getDistributedSystemId","parameterTypes":[] },
+    {"name":"getDistributedTransactions","parameterTypes":[] },
+    {"name":"getDurableClientId","parameterTypes":[] },
+    {"name":"getDurableClientTimeout","parameterTypes":[] },
+    {"name":"getEnableClusterConfiguration","parameterTypes":[] },
+    {"name":"getEnableManagementRestService","parameterTypes":[] },
+    {"name":"getEnableNetworkPartitionDetection","parameterTypes":[] },
+    {"name":"getEnableTimeStatistics","parameterTypes":[] },
+    {"name":"getEnforceUniqueHost","parameterTypes":[] },
+    {"name":"getGatewaySSLAlias","parameterTypes":[] },
+    {"name":"getGatewaySSLCiphers","parameterTypes":[] },
+    {"name":"getGatewaySSLEnabled","parameterTypes":[] },
+    {"name":"getGatewaySSLKeyStore","parameterTypes":[] },
+    {"name":"getGatewaySSLKeyStorePassword","parameterTypes":[] },
+    {"name":"getGatewaySSLKeyStoreType","parameterTypes":[] },
+    {"name":"getGatewaySSLProtocols","parameterTypes":[] },
+    {"name":"getGatewaySSLRequireAuthentication","parameterTypes":[] },
+    {"name":"getGatewaySSLTrustStore","parameterTypes":[] },
+    {"name":"getGatewaySSLTrustStorePassword","parameterTypes":[] },
+    {"name":"getGroups","parameterTypes":[] },
+    {"name":"getHTTPServiceSSLAlias","parameterTypes":[] },
+    {"name":"getHttpServiceBindAddress","parameterTypes":[] },
+    {"name":"getHttpServicePort","parameterTypes":[] },
+    {"name":"getHttpServiceSSLCiphers","parameterTypes":[] },
+    {"name":"getHttpServiceSSLEnabled","parameterTypes":[] },
+    {"name":"getHttpServiceSSLKeyStore","parameterTypes":[] },
+    {"name":"getHttpServiceSSLKeyStorePassword","parameterTypes":[] },
+    {"name":"getHttpServiceSSLKeyStoreType","parameterTypes":[] },
+    {"name":"getHttpServiceSSLProtocols","parameterTypes":[] },
+    {"name":"getHttpServiceSSLRequireAuthentication","parameterTypes":[] },
+    {"name":"getHttpServiceSSLTrustStore","parameterTypes":[] },
+    {"name":"getHttpServiceSSLTrustStorePassword","parameterTypes":[] },
+    {"name":"getJMXSSLAlias","parameterTypes":[] },
+    {"name":"getJmxManager","parameterTypes":[] },
+    {"name":"getJmxManagerAccessFile","parameterTypes":[] },
+    {"name":"getJmxManagerBindAddress","parameterTypes":[] },
+    {"name":"getJmxManagerHostnameForClients","parameterTypes":[] },
+    {"name":"getJmxManagerHttpPort","parameterTypes":[] },
+    {"name":"getJmxManagerPasswordFile","parameterTypes":[] },
+    {"name":"getJmxManagerPort","parameterTypes":[] },
+    {"name":"getJmxManagerSSLCiphers","parameterTypes":[] },
+    {"name":"getJmxManagerSSLEnabled","parameterTypes":[] },
+    {"name":"getJmxManagerSSLKeyStore","parameterTypes":[] },
+    {"name":"getJmxManagerSSLKeyStorePassword","parameterTypes":[] },
+    {"name":"getJmxManagerSSLKeyStoreType","parameterTypes":[] },
+    {"name":"getJmxManagerSSLProtocols","parameterTypes":[] },
+    {"name":"getJmxManagerSSLRequireAuthentication","parameterTypes":[] },
+    {"name":"getJmxManagerSSLTrustStore","parameterTypes":[] },
+    {"name":"getJmxManagerSSLTrustStorePassword","parameterTypes":[] },
+    {"name":"getJmxManagerStart","parameterTypes":[] },
+    {"name":"getJmxManagerUpdateRate","parameterTypes":[] },
+    {"name":"getLoadClusterConfigFromDir","parameterTypes":[] },
+    {"name":"getLocatorSSLAlias","parameterTypes":[] },
+    {"name":"getLocatorWaitTime","parameterTypes":[] },
+    {"name":"getLocators","parameterTypes":[] },
+    {"name":"getLockMemory","parameterTypes":[] },
+    {"name":"getLogDiskSpaceLimit","parameterTypes":[] },
+    {"name":"getLogFile","parameterTypes":[] },
+    {"name":"getLogFileSizeLimit","parameterTypes":[] },
+    {"name":"getLogLevel","parameterTypes":[] },
+    {"name":"getMaxNumReconnectTries","parameterTypes":[] },
+    {"name":"getMaxWaitTimeForReconnect","parameterTypes":[] },
+    {"name":"getMcastAddress","parameterTypes":[] },
+    {"name":"getMcastFlowControl","parameterTypes":[] },
+    {"name":"getMcastPort","parameterTypes":[] },
+    {"name":"getMcastRecvBufferSize","parameterTypes":[] },
+    {"name":"getMcastSendBufferSize","parameterTypes":[] },
+    {"name":"getMcastTtl","parameterTypes":[] },
+    {"name":"getMemberTimeout","parameterTypes":[] },
+    {"name":"getMembershipPortRange","parameterTypes":[] },
+    {"name":"getMemcachedBindAddress","parameterTypes":[] },
+    {"name":"getMemcachedPort","parameterTypes":[] },
+    {"name":"getMemcachedProtocol","parameterTypes":[] },
+    {"name":"getName","parameterTypes":[] },
+    {"name":"getOffHeapMemorySize","parameterTypes":[] },
+    {"name":"getPostProcessor","parameterTypes":[] },
+    {"name":"getRedisBindAddress","parameterTypes":[] },
+    {"name":"getRedisPassword","parameterTypes":[] },
+    {"name":"getRedisPort","parameterTypes":[] },
+    {"name":"getRedundancyZone","parameterTypes":[] },
+    {"name":"getRemoteLocators","parameterTypes":[] },
+    {"name":"getRemoveUnresponsiveClient","parameterTypes":[] },
+    {"name":"getRoles","parameterTypes":[] },
+    {"name":"getSSLCiphers","parameterTypes":[] },
+    {"name":"getSSLDefaultAlias","parameterTypes":[] },
+    {"name":"getSSLEndPointIdentificationEnabled","parameterTypes":[] },
+    {"name":"getSSLKeyStore","parameterTypes":[] },
+    {"name":"getSSLKeyStorePassword","parameterTypes":[] },
+    {"name":"getSSLKeyStoreType","parameterTypes":[] },
+    {"name":"getSSLParameterExtension","parameterTypes":[] },
+    {"name":"getSSLProtocols","parameterTypes":[] },
+    {"name":"getSSLRequireAuthentication","parameterTypes":[] },
+    {"name":"getSSLTrustStore","parameterTypes":[] },
+    {"name":"getSSLTrustStorePassword","parameterTypes":[] },
+    {"name":"getSSLTrustStoreType","parameterTypes":[] },
+    {"name":"getSSLUseDefaultContext","parameterTypes":[] },
+    {"name":"getSSLWebRequireAuthentication","parameterTypes":[] },
+    {"name":"getSecurableCommunicationChannels","parameterTypes":[] },
+    {"name":"getSecurityAuthTokenEnabledComponents","parameterTypes":[] },
+    {"name":"getSecurityClientAccessor","parameterTypes":[] },
+    {"name":"getSecurityClientAccessorPP","parameterTypes":[] },
+    {"name":"getSecurityClientAuthInit","parameterTypes":[] },
+    {"name":"getSecurityClientAuthenticator","parameterTypes":[] },
+    {"name":"getSecurityClientDHAlgo","parameterTypes":[] },
+    {"name":"getSecurityLogFile","parameterTypes":[] },
+    {"name":"getSecurityManager","parameterTypes":[] },
+    {"name":"getSecurityPeerAuthInit","parameterTypes":[] },
+    {"name":"getSecurityPeerAuthenticator","parameterTypes":[] },
+    {"name":"getSecurityPeerMembershipTimeout","parameterTypes":[] },
+    {"name":"getSecurityUDPDHAlgo","parameterTypes":[] },
+    {"name":"getSerializableObjectFilter","parameterTypes":[] },
+    {"name":"getServerBindAddress","parameterTypes":[] },
+    {"name":"getServerSSLAlias","parameterTypes":[] },
+    {"name":"getServerSSLCiphers","parameterTypes":[] },
+    {"name":"getServerSSLEnabled","parameterTypes":[] },
+    {"name":"getServerSSLKeyStore","parameterTypes":[] },
+    {"name":"getServerSSLKeyStorePassword","parameterTypes":[] },
+    {"name":"getServerSSLKeyStoreType","parameterTypes":[] },
+    {"name":"getServerSSLProtocols","parameterTypes":[] },
+    {"name":"getServerSSLRequireAuthentication","parameterTypes":[] },
+    {"name":"getServerSSLTrustStore","parameterTypes":[] },
+    {"name":"getServerSSLTrustStorePassword","parameterTypes":[] },
+    {"name":"getSocketBufferSize","parameterTypes":[] },
+    {"name":"getSocketLeaseTime","parameterTypes":[] },
+    {"name":"getStartDevRestApi","parameterTypes":[] },
+    {"name":"getStartLocator","parameterTypes":[] },
+    {"name":"getStatisticArchiveFile","parameterTypes":[] },
+    {"name":"getStatisticSampleRate","parameterTypes":[] },
+    {"name":"getStatisticSamplingEnabled","parameterTypes":[] },
+    {"name":"getTcpPort","parameterTypes":[] },
+    {"name":"getThreadMonitorEnabled","parameterTypes":[] },
+    {"name":"getThreadMonitorInterval","parameterTypes":[] },
+    {"name":"getThreadMonitorTimeLimit","parameterTypes":[] },
+    {"name":"getUdpFragmentSize","parameterTypes":[] },
+    {"name":"getUdpRecvBufferSize","parameterTypes":[] },
+    {"name":"getUdpSendBufferSize","parameterTypes":[] },
+    {"name":"getUseSharedConfiguration","parameterTypes":[] },
+    {"name":"getUserCommandPackages","parameterTypes":[] },
+    {"name":"getValidateSerializableObjects","parameterTypes":[] },
+    {"name":"setLocators","parameterTypes":["java.lang.String"] },
+    {"name":"setLogLevel","parameterTypes":["int"] },
+    {"name":"setMcastPort","parameterTypes":["int"] },
+    {"name":"setName","parameterTypes":["java.lang.String"] }
+  ]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.HighPriorityAckedMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.ReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.SerialAckedMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.ShutdownMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.StartupMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.StartupResponseMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.StartupResponseWithVersionMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.WaitForViewInstallation",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.locks.DLockQueryProcessor$DLockQueryMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.locks.DLockQueryProcessor$DLockQueryReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.locks.DLockRecoverGrantorProcessor$DLockRecoverGrantorMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.locks.DLockRecoverGrantorProcessor$DLockRecoverGrantorReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.locks.DLockReleaseProcessor$DLockReleaseMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.locks.DLockReleaseProcessor$DLockReleaseReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.locks.DLockRequestProcessor$DLockRequestMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.locks.DLockRequestProcessor$DLockResponseMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.locks.DLockService$SuspendLockingToken",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.locks.DeposeGrantorProcessor$DeposeGrantorMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.locks.ElderInitProcessor$ElderInitMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.locks.ElderInitProcessor$ElderInitReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.locks.GrantorRequestProcessor$GrantorInfoReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.locks.GrantorRequestProcessor$GrantorRequestMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.locks.NonGrantorDestroyedProcessor$NonGrantorDestroyedMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.locks.NonGrantorDestroyedProcessor$NonGrantorDestroyedReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.membership.InternalDistributedMember",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.membership.gms.GMSMembershipView",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.membership.gms.locator.FindCoordinatorRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.membership.gms.locator.FindCoordinatorResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.membership.gms.locator.GetViewRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.membership.gms.locator.GetViewResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.membership.gms.messages.FinalCheckPassedMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.membership.gms.messages.HeartbeatMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.membership.gms.messages.HeartbeatRequestMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.membership.gms.messages.InstallViewMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.membership.gms.messages.JoinRequestMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.membership.gms.messages.JoinResponseMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.membership.gms.messages.LeaveRequestMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.membership.gms.messages.NetworkPartitionMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.membership.gms.messages.RemoveMemberMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.membership.gms.messages.SuspectMembersMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.membership.gms.messages.ViewAckMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.streaming.StreamingOperation$StreamingReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.distributed.internal.tcpserver.HostAndPort",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.InternalDataSerializer$RegistrationMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.InternalInstantiator$RegistrationContextMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.InternalInstantiator$RegistrationMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.ClientMembershipMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.AddHealthListenerRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.AddHealthListenerResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.AddStatListenerRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.AddStatListenerResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.AdminConsoleDisconnectMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.AdminConsoleMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.AdminFailureResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.AlertLevelChangeMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.AlertListenerMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.AlertsNotificationMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.AppCacheSnapshotMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.BridgeServerRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.BridgeServerResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.CacheConfigRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.CacheConfigResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.CacheInfoRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.CacheInfoResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.CancelStatListenerRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.CancelStatListenerResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.CancellationMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.ChangeRefreshIntervalMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.ClientHealthStats",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.CompactRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.CompactResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.DestroyEntryMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.DestroyRegionMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.DurableClientInfoRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.DurableClientInfoResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.FetchDistLockInfoRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.FetchDistLockInfoResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.FetchHealthDiagnosisRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.FetchHealthDiagnosisResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.FetchHostRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.FetchHostResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.FetchResourceAttributesRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.FetchResourceAttributesResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.FetchStatsRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.FetchStatsResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.FetchSysCfgRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.FetchSysCfgResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.FlushAppCacheSnapshotMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.HealthListenerMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.LicenseInfoRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.LicenseInfoResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.MissingPersistentIDsRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.MissingPersistentIDsResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.ObjectDetailsRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.ObjectDetailsResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.ObjectNamesRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.ObjectNamesResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.PrepareRevokePersistentIDRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.RefreshMemberSnapshotRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.RefreshMemberSnapshotResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.RegionAttributesRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.RegionAttributesResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.RegionRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.RegionResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.RegionSizeRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.RegionSizeResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.RegionStatisticsRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.RegionStatisticsResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.RegionSubRegionSizeRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.RegionSubRegionsSizeResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.RemoveHealthListenerRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.RemoveHealthListenerResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.ResetHealthStatusRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.ResetHealthStatusResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.RevokePersistentIDRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.RevokePersistentIDResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.RootRegionRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.RootRegionResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.ShutdownAllGatewayHubsRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.ShutdownAllRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.ShutdownAllResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.SnapshotResultMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.StatAlertsManagerAssignMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.StatListenerMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.StoreSysCfgRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.StoreSysCfgResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.SubRegionRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.SubRegionResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.TailLogRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.TailLogResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.UpdateAlertDefinitionMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.VersionInfoRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.remote.VersionInfoResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.statalerts.GaugeThresholdDecoratorImpl",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.admin.statalerts.NumberThresholdDecoratorImpl",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.AddCacheServerProfileMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.BucketAdvisor$BucketProfile",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.BucketAdvisor$ServerBucketProfile",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.CacheDistributionAdvisor$CacheProfile",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.CacheServerAdvisor$CacheServerProfile",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.ClientRegionEventImpl",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.CloseCacheMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.ControllerAdvisor$ControllerProfile",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.CreateRegionProcessor$CreateRegionMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.CreateRegionProcessor$CreateRegionReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.DestroyOperation$DestroyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.DestroyOperation$DestroyWithContextMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.DestroyPartitionedRegionMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.DestroyRegionOperation$DestroyRegionMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.DestroyRegionOperation$DestroyRegionWithContextMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.DistTXCommitMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.DistTXCommitMessage$DistTXCommitReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.DistTXPrecommitMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.DistTXPrecommitMessage$DistTXPrecommitReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.DistTXPrecommitMessage$DistTxPrecommitResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.DistTXRollbackMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.DistTXRollbackMessage$DistTXRollbackReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.DistributedClearOperation$ClearRegionMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.DistributedClearOperation$ClearRegionWithContextMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.DistributedPutAllOperation$EntryVersionsList",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.DistributedPutAllOperation$PutAllMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.DistributedRegionFunctionStreamingMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.DistributedRemoveAllOperation$RemoveAllMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.DistributedTombstoneOperation$TombstoneMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.EntryEventImpl",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.EventID",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.ExpireDisconnectedClientTransactionsMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.FilterProfile",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.FilterProfile$OperationMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.FindDurableQueueProcessor$FindDurableQueueMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.FindDurableQueueProcessor$FindDurableQueueReply",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.FindRemoteTXMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.FindRemoteTXMessage$FindRemoteTXMessageReply",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.FindVersionTagOperation$FindVersionTagMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.FindVersionTagOperation$VersionTagReply",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.FunctionStreamingOrderedReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.FunctionStreamingReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.HARegion$HARegionAdvisor$HAProfile",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.InitialImageFlowControl$FlowControlPermitMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.InitialImageOperation$Entry",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.InitialImageOperation$FilterInfoMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.InitialImageOperation$ImageReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.InitialImageOperation$InitialImageVersionedEntryList",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.InitialImageOperation$RVVReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.InitialImageOperation$RegionStateMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.InitialImageOperation$RequestFilterInfoMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.InitialImageOperation$RequestImageMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.InitialImageOperation$RequestRVVMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.InitialImageOperation$RequestSyncMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.InvalidateOperation$InvalidateMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.InvalidateOperation$InvalidateWithContextMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.InvalidatePartitionedRegionMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.InvalidateRegionOperation$InvalidateRegionMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.JtaAfterCompletionMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.JtaBeforeCompletionMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.LatestLastAccessTimeMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.MemberFunctionStreamingMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.Node",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.PRQueryProcessor$EndOfBucket",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.PartitionRegionConfig",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.PreferBytesCachedDeserializable",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.RegionEventImpl",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.ReleaseClearLockMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.RemoveCacheServerProfileMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.RoleEventImpl",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.SearchLoadAndWriteProcessor$NetLoadReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.SearchLoadAndWriteProcessor$NetLoadRequestMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.SearchLoadAndWriteProcessor$NetSearchReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.SearchLoadAndWriteProcessor$NetSearchRequestMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.SearchLoadAndWriteProcessor$NetWriteReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.SearchLoadAndWriteProcessor$NetWriteRequestMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.SearchLoadAndWriteProcessor$QueryMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.SearchLoadAndWriteProcessor$ResponseMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.ServerPingMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.StateFlushOperation$StateMarkerMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.StateFlushOperation$StateStabilizationMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.StateFlushOperation$StateStabilizedMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.StoreAllCachedDeserializable",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.TXCommitMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.TXCommitMessage$CommitProcessForLockIdMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.TXCommitMessage$CommitProcessForTXIdMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.TXCommitMessage$CommitProcessQueryMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.TXCommitMessage$CommitProcessQueryReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.TXEntryState$DistTxThinEntryState",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.TXRemoteCommitMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.TXRemoteCommitMessage$TXRemoteCommitReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.TXRemoteRollbackMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.UpdateAttributesProcessor$ProfileReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.UpdateAttributesProcessor$ProfilesReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.UpdateAttributesProcessor$UpdateAttributesMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.UpdateEntryVersionOperation$UpdateEntryVersionMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.UpdateOperation$UpdateMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.UpdateOperation$UpdateWithContextMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.UserSpecifiedRegionAttributes",
+  "allDeclaredFields":true,
+  "methods":[
+    {"name":"hasAsyncEventListeners","parameterTypes":[] },
+    {"name":"hasCacheListeners","parameterTypes":[] },
+    {"name":"hasCacheLoader","parameterTypes":[] },
+    {"name":"hasCacheWriter","parameterTypes":[] },
+    {"name":"hasCloningEnabled","parameterTypes":[] },
+    {"name":"hasCompressor","parameterTypes":[] },
+    {"name":"hasConcurrencyChecksEnabled","parameterTypes":[] },
+    {"name":"hasConcurrencyLevel","parameterTypes":[] },
+    {"name":"hasCustomEntryIdleTimeout","parameterTypes":[] },
+    {"name":"hasCustomEntryTimeToLive","parameterTypes":[] },
+    {"name":"hasCustomEviction","parameterTypes":[] },
+    {"name":"hasDataPolicy","parameterTypes":[] },
+    {"name":"hasDiskDirs","parameterTypes":[] },
+    {"name":"hasDiskStoreName","parameterTypes":[] },
+    {"name":"hasDiskSynchronous","parameterTypes":[] },
+    {"name":"hasDiskWriteAttributes","parameterTypes":[] },
+    {"name":"hasEarlyAck","parameterTypes":[] },
+    {"name":"hasEnableAsyncConflation","parameterTypes":[] },
+    {"name":"hasEnableSubscriptionConflation","parameterTypes":[] },
+    {"name":"hasEntryIdleTimeout","parameterTypes":[] },
+    {"name":"hasEntryTimeToLive","parameterTypes":[] },
+    {"name":"hasEvictionAttributes","parameterTypes":[] },
+    {"name":"hasGatewaySenderId","parameterTypes":[] },
+    {"name":"hasIgnoreJTA","parameterTypes":[] },
+    {"name":"hasIndexMaintenanceSynchronous","parameterTypes":[] },
+    {"name":"hasInitialCapacity","parameterTypes":[] },
+    {"name":"hasIsLockGrantor","parameterTypes":[] },
+    {"name":"hasKeyConstraint","parameterTypes":[] },
+    {"name":"hasLoadFactor","parameterTypes":[] },
+    {"name":"hasMembershipAttributes","parameterTypes":[] },
+    {"name":"hasMulticastEnabled","parameterTypes":[] },
+    {"name":"hasOffHeap","parameterTypes":[] },
+    {"name":"hasPartitionAttributes","parameterTypes":[] },
+    {"name":"hasPoolName","parameterTypes":[] },
+    {"name":"hasPublisher","parameterTypes":[] },
+    {"name":"hasRegionIdleTimeout","parameterTypes":[] },
+    {"name":"hasRegionTimeToLive","parameterTypes":[] },
+    {"name":"hasScope","parameterTypes":[] },
+    {"name":"hasStatisticsEnabled","parameterTypes":[] },
+    {"name":"hasSubscriptionAttributes","parameterTypes":[] },
+    {"name":"hasValueConstraint","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"org.apache.geode.internal.cache.VMCachedDeserializable",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.backup.AbortBackupRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.backup.BackupResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.backup.FinishBackupRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.backup.FlushToDiskRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.backup.FlushToDiskResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.backup.PrepareBackupRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.compression.SnappyCompressedCachedDeserializable",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.control.ResourceAdvisor$ResourceManagerProfile",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.control.ResourceAdvisor$ResourceProfileMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.control.SerializableRegionRedundancyStatusImpl",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.control.SerializableRestoreRedundancyResultsImpl",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.ha.HARegionQueue$DispatchedAndCurrentEvents",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.ha.QueueRemovalMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.locks.TXLockBatch",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.locks.TXLockIdImpl",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.locks.TXLockUpdateParticipantsMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.locks.TXLockUpdateParticipantsMessage$TXLockUpdateParticipantsReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.locks.TXOriginatorRecoveryProcessor$TXOriginatorRecoveryMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.locks.TXOriginatorRecoveryProcessor$TXOriginatorRecoveryReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.AllBucketProfilesUpdateMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.BecomePrimaryBucketMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.BecomePrimaryBucketMessage$BecomePrimaryBucketReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.BucketBackupMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.BucketCountLoadProbe",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.BucketProfileUpdateMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.BucketSizeMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.BucketSizeMessage$BucketSizeReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.ContainsKeyValueMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.ContainsKeyValueMessage$ContainsKeyValueReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.CreateBucketMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.CreateBucketMessage$CreateBucketReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.DeposePrimaryBucketMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.DeposePrimaryBucketMessage$DeposePrimaryBucketReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.DestroyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.DestroyMessage$DestroyReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.DestroyRegionOnDataStoreMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.DumpAllPRConfigMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.DumpB2NRegion",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.DumpB2NRegion$DumpB2NReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.DumpBucketsMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.EndBucketCreationMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.FetchBulkEntriesMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.FetchBulkEntriesMessage$FetchBulkEntriesReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.FetchEntriesMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.FetchEntriesMessage$FetchEntriesReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.FetchEntryMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.FetchEntryMessage$FetchEntryReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.FetchKeysMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.FetchKeysMessage$FetchKeysReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.FetchPartitionDetailsMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.FetchPartitionDetailsMessage$FetchPartitionDetailsReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.FlushMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.GetMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.GetMessage$GetReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.IdentityRequestMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.IdentityRequestMessage$IdentityReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.IdentityUpdateMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.IndexCreationMsg",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.IndexCreationMsg$IndexCreationReplyMsg",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.InterestEventMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.InterestEventMessage$InterestEventReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.InvalidateMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.InvalidateMessage$InvalidateReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.ManageBackupBucketMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.ManageBackupBucketMessage$ManageBackupBucketReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.ManageBucketMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.ManageBucketMessage$ManageBucketReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.MoveBucketMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.MoveBucketMessage$MoveBucketReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.PRSanityCheckMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.PRTombstoneMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.PRUpdateEntryVersionMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.PartitionedRegionFunctionStreamingMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.PrimaryRequestMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.PrimaryRequestMessage$PrimaryRequestReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.PutAllPRMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.PutAllPRMessage$PutAllReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.PutMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.PutMessage$PutReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.QueryMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.RegionAdvisor$PartitionProfile",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.RemoveAllPRMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.RemoveAllPRMessage$RemoveAllReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.RemoveBucketMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.RemoveBucketMessage$RemoveBucketReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.RemoveIndexesMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.RemoveIndexesMessage$RemoveIndexesReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.SizeMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.SizeMessage$SizeReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.partitioned.SizedBasedLoadProbe",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.persistence.DiskStoreID",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.persistence.MembershipFlushRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.persistence.MembershipViewRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.persistence.MembershipViewRequest$MembershipViewReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.persistence.PersistentStateQueryMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.persistence.PersistentStateQueryMessage$PersistentStateQueryReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.persistence.PrepareNewPersistentMemberMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.persistence.RemovePersistentMemberMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.snapshot.FlowController$FlowControlAbortMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.snapshot.FlowController$FlowControlAckMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.snapshot.SnapshotPacket",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.snapshot.SnapshotPacket$SnapshotRecord",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tier.sockets.ClientDataSerializerMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tier.sockets.ClientDenylistProcessor$ClientDenylistMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tier.sockets.ClientInstantiatorMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tier.sockets.ClientInterestMessageImpl",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tier.sockets.ClientMarkerMessageImpl",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tier.sockets.ClientPingMessageImpl",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tier.sockets.ClientProxyMembershipID",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tier.sockets.ClientTombstoneMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tier.sockets.ClientUpdateMessageImpl",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tier.sockets.HAEventWrapper",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tier.sockets.ObjectPartList",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tier.sockets.ObjectPartList651",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tier.sockets.RemoveClientFromDenylistMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tier.sockets.SerializedObjectPartList",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tier.sockets.ServerInterestRegistrationMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tier.sockets.VersionedObjectList",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tx.DistTxEntryEvent",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tx.RemoteClearMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tx.RemoteClearMessage$RemoteClearReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tx.RemoteContainsKeyValueMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tx.RemoteContainsKeyValueMessage$RemoteContainsKeyValueReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tx.RemoteDestroyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tx.RemoteDestroyMessage$DestroyReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tx.RemoteFetchEntryMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tx.RemoteFetchEntryMessage$FetchEntryReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tx.RemoteFetchKeysMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tx.RemoteFetchKeysMessage$RemoteFetchKeysReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tx.RemoteFetchVersionMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tx.RemoteFetchVersionMessage$FetchVersionReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tx.RemoteGetMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tx.RemoteGetMessage$GetReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tx.RemoteInvalidateMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tx.RemoteInvalidateMessage$InvalidateReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tx.RemotePutAllMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tx.RemotePutAllMessage$PutAllReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tx.RemotePutMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tx.RemotePutMessage$PutReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tx.RemoteRemoveAllMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tx.RemoteRemoveAllMessage$RemoveAllReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tx.RemoteSizeMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.tx.RemoteSizeMessage$SizeReplyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.versions.DiskRegionVersionVector",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.versions.DiskVersionTag",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.versions.VMRegionVersionVector",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.versions.VMVersionTag",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.wan.GatewaySenderAdvisor$GatewaySenderProfile",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.wan.GatewaySenderEventCallbackArgument",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.wan.GatewaySenderEventImpl",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.wan.GatewaySenderQueueEntrySynchronizationOperation$GatewaySenderQueueEntrySynchronizationEntry",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.wan.GatewaySenderQueueEntrySynchronizationOperation$GatewaySenderQueueEntrySynchronizationMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.wan.parallel.ParallelQueueRemovalMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.wan.serial.BatchDestroyOperation$DestroyMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.jndi.InitialContextFactoryImpl",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.management.internal.FederationComponent",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.management.internal.JmxManagerAdvisor$JmxManagerProfile",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.management.internal.JmxManagerAdvisor$JmxManagerProfileMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.management.internal.JmxManagerLocatorRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.management.internal.JmxManagerLocatorResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.management.internal.ManagerStartupMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.management.internal.functions.CliFunctionResult",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.management.internal.messages.CompactRequest",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.management.internal.messages.CompactResponse",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.pdx.internal.CheckTypeRegistryState",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.pdx.internal.EnumId",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.pdx.internal.EnumInfo",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.message.DefaultFlowMessageFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.log4j.message.ReusableMessageFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.logging.slf4j.SLF4JLoggerContextFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.shiro.SecurityUtils",
+  "methods":[{"name":"getSecurityManager","parameterTypes":[] }]}
+,
+{
+  "name":"sun.security.provider.NativePRNG",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"sun.security.provider.SHA",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+
+]
