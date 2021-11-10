@@ -28,7 +28,8 @@ import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
 /**
- * Example Spring Data for Apache Geode (SDG) Java application (program).
+ * Example Spring Data for Apache Geode (SDG) Java application (program) that uses the {@link GemfireTemplate}
+ * to access (store/persist and read) data from Apache Geode.
  *
  * @author John Blum
  * @see org.apache.geode.cache.GemFireCache
@@ -37,6 +38,7 @@ import lombok.Setter;
  * @see org.springframework.context.annotation.AnnotationConfigApplicationContext
  * @see org.springframework.context.annotation.Bean
  * @see org.springframework.data.gemfire.GemfireTemplate
+ * @see org.springframework.data.gemfire.client.ClientRegionFactoryBean
  * @see org.springframework.data.gemfire.config.annotation.ClientCacheApplication
  * @see org.springframework.data.gemfire.config.annotation.EnableEntityDefinedRegions
  * @since 1.0.0
