@@ -16,13 +16,13 @@ import org.springframework.lang.NonNull;
 import org.springframework.lang.Nullable;
 
 import lombok.AccessLevel;
+import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.RequiredArgsConstructor;
 import lombok.Setter;
-import lombok.ToString;
 
 /**
- * A {@link SpringGeodeApplication } using Apache Geode to save and load data.
+ * A {@link SpringBootApplication} (SBDG) using Apache Geode to save (persist) and load (read) data.
  *
  * @author John Blum
  * @see org.springframework.boot.ApplicationRunner
@@ -30,7 +30,7 @@ import lombok.ToString;
  * @see org.springframework.boot.autoconfigure.SpringBootApplication
  * @see org.springframework.context.annotation.Bean
  * @see org.springframework.context.annotation.Configuration
- * @see org.springframework.data.gemfire.mapping.annotation.Region
+ * @see org.springframework.data.repository.CrudRepository
  * @since 1.0.0
  */
 @SpringBootApplication
@@ -69,8 +69,8 @@ public class SpringGeodeApplication {
 }
 
 @Getter
-@ToString(of = "name")
 @Region("Users")
+@EqualsAndHashCode
 @RequiredArgsConstructor(staticName = "of")
 class User {
 
@@ -83,6 +83,11 @@ class User {
 	@NonNull User identifiedBy(@Nullable Long id) {
 		setId(id);
 		return this;
+	}
+
+	@Override
+	public String toString() {
+		return getName();
 	}
 }
 
