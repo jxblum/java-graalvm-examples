@@ -120,7 +120,7 @@ public class ExampleSpringDataGeodeApplication implements Runnable {
 
 	protected void run(@NonNull GemfireTemplate usersTemplate, @NonNull String[] arguments) {
 
-		User jonDoe = User.of("jonDoe").identifiedBy(1L);
+		User jonDoe = User.as("jonDoe").identifiedBy(1L);
 
 		log("Saving User [%s]...%n", jonDoe);
 
@@ -140,7 +140,7 @@ public class ExampleSpringDataGeodeApplication implements Runnable {
 	@Getter
 	@EqualsAndHashCode
 	@Region(USERS_REGION_NAME)
-	@RequiredArgsConstructor(staticName = "of")
+	@RequiredArgsConstructor(staticName = "as")
 	static class User implements Serializable {
 
 		@Id
