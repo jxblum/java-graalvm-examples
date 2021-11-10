@@ -36,8 +36,9 @@
 		<module>simple-geode-example</module>
 		<module>simple-spring-example</module>
 		<module>simple-springboot-example</module>
-		<module>spring-geode-example</module>
+		<module>spring-data-geode-repository-example</module>
 		<module>spring-data-geode-template-example</module>
+		<module>spring-geode-example</module>
 	</modules>
 
 	<properties>
