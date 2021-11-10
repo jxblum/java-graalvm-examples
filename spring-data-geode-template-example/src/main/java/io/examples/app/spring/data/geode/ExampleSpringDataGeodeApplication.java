@@ -5,6 +5,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import java.io.Serializable;
 
 import org.apache.geode.cache.GemFireCache;
+import org.apache.geode.cache.client.ClientRegionShortcut;
 
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -59,7 +60,7 @@ public class ExampleSpringDataGeodeApplication implements Runnable {
 			ClientRegionFactoryBean<Long, User> usersRegion = new ClientRegionFactoryBean<>();
 
 			usersRegion.setCache(cache);
-			usersRegion.setPersistent(false);
+			usersRegion.setShortcut(ClientRegionShortcut.LOCAL);
 
 			return usersRegion;
 		}
