@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 /**
- * Simple {@link SpringBootApplication} example.
+ * Example {@link SpringBootApplication}.
  *
  * @author John Blum
  * @see org.springframework.boot.ApplicationRunner
