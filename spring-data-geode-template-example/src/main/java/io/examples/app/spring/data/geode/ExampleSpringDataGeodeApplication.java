@@ -28,7 +28,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.Setter;
 
 /**
- * Spring Data for Apache Geode (SDG) Java application (program).
+ * Example Spring Data for Apache Geode (SDG) Java application (program).
  *
  * @author John Blum
  * @see org.apache.geode.cache.GemFireCache
