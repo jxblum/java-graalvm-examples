@@ -1,217 +1,123 @@
 [
-  {
-    "name": "[Lorg.springframework.util.ConcurrentReferenceHashMap$Segment;"
-  },
-  {
-    "name": "io.examples.app.spring.ExampleSpringApplication$ApplicationConfiguration",
-    "allDeclaredFields": true,
-    "allDeclaredClasses": true,
-    "queryAllDeclaredMethods": true,
-    "queryAllDeclaredConstructors": true,
-    "methods": [
-      {
-        "name": "helloService",
-        "parameterTypes": []
-      },
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "io.examples.app.spring.service.HelloService",
-    "queryAllDeclaredMethods": true,
-    "queryAllPublicMethods": true
-  },
-  {
-    "name": "java.lang.ClassLoader",
-    "queriedMethods": [
-      {
-        "name": "defineClass",
-        "parameterTypes": [
-          "java.lang.String",
-          "byte[]",
-          "int",
-          "int",
-          "java.security.ProtectionDomain"
-        ]
-      }
-    ]
-  },
-  {
-    "name": "java.lang.Object",
-    "queryAllDeclaredMethods": true
-  },
-  {
-    "name": "java.lang.annotation.Documented",
-    "queryAllDeclaredMethods": true
-  },
-  {
-    "name": "java.lang.annotation.Retention",
-    "queryAllDeclaredMethods": true,
-    "methods": [
-      {
-        "name": "value",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "java.lang.annotation.Target",
-    "queryAllDeclaredMethods": true
-  },
-  {
-    "name": "java.lang.invoke.MethodHandles",
-    "methods": [
-      {
-        "name": "privateLookupIn",
-        "parameterTypes": [
-          "java.lang.Class",
-          "java.lang.invoke.MethodHandles$Lookup"
-        ]
-      }
-    ]
-  },
-  {
-    "name": "java.lang.invoke.MethodHandles$Lookup",
-    "methods": [
-      {
-        "name": "defineClass",
-        "parameterTypes": [
-          "byte[]"
-        ]
-      }
-    ]
-  },
-  {
-    "name": "org.springframework.beans.ExtendedBeanInfoFactory",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "org.springframework.beans.factory.Aware",
-    "queryAllDeclaredMethods": true,
-    "queryAllPublicMethods": true
-  },
-  {
-    "name": "org.springframework.beans.factory.BeanFactoryAware",
-    "queryAllDeclaredMethods": true,
-    "queryAllPublicMethods": true
-  },
-  {
-    "name": "org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "org.springframework.cglib.core.MethodWrapper$MethodWrapperKey",
-    "queryAllDeclaredMethods": true
-  },
-  {
-    "name": "org.springframework.cglib.proxy.Enhancer$EnhancerKey",
-    "queryAllDeclaredMethods": true
-  },
-  {
-    "name": "org.springframework.context.annotation.Bean",
-    "queryAllDeclaredMethods": true,
-    "methods": [
-      {
-        "name": "autowire",
-        "parameterTypes": []
-      },
-      {
-        "name": "autowireCandidate",
-        "parameterTypes": []
-      },
-      {
-        "name": "destroyMethod",
-        "parameterTypes": []
-      },
-      {
-        "name": "initMethod",
-        "parameterTypes": []
-      },
-      {
-        "name": "name",
-        "parameterTypes": []
-      },
-      {
-        "name": "value",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "org.springframework.context.annotation.Configuration",
-    "queryAllDeclaredMethods": true,
-    "methods": [
-      {
-        "name": "proxyBeanMethods",
-        "parameterTypes": []
-      },
-      {
-        "name": "value",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "org.springframework.context.annotation.ConfigurationClassEnhancer$EnhancedConfiguration",
-    "queryAllDeclaredMethods": true,
-    "queryAllPublicMethods": true
-  },
-  {
-    "name": "org.springframework.context.annotation.ConfigurationClassPostProcessor",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "org.springframework.context.event.DefaultEventListenerFactory",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "org.springframework.context.event.EventListenerMethodProcessor",
-    "methods": [
-      {
-        "name": "<init>",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "org.springframework.core.annotation.AliasFor",
-    "queryAllDeclaredMethods": true,
-    "methods": [
-      {
-        "name": "annotation",
-        "parameterTypes": []
-      }
-    ]
-  },
-  {
-    "name": "org.springframework.stereotype.Component",
-    "queryAllDeclaredMethods": true
-  },
-  {
-    "name": "org.springframework.stereotype.Indexed",
-    "queryAllDeclaredMethods": true
-  }
+{
+  "name":"[Lorg.springframework.util.ConcurrentReferenceHashMap$Segment;"}
+,
+{
+  "name":"io.examples.app.spring.ExampleSpringApplication$ApplicationConfiguration",
+  "allDeclaredFields":true,
+  "allDeclaredClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[{"name":"<init>","parameterTypes":[] },{"name":"helloService","parameterTypes":[] }]}
+,
+{
+  "name":"io.examples.app.spring.service.HelloService",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"java.lang.ClassLoader",
+  "queriedMethods":[{"name":"defineClass","parameterTypes":["java.lang.String","byte[]","int","int","java.security.ProtectionDomain"] }]}
+,
+{
+  "name":"java.lang.Object",
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"java.lang.annotation.Documented",
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"java.lang.annotation.Retention",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"value","parameterTypes":[] }]}
+,
+{
+  "name":"java.lang.annotation.Target",
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"java.lang.invoke.MethodHandles",
+  "methods":[{"name":"privateLookupIn","parameterTypes":["java.lang.Class","java.lang.invoke.MethodHandles$Lookup"] }]}
+,
+{
+  "name":"java.lang.invoke.MethodHandles$Lookup",
+  "methods":[{"name":"defineClass","parameterTypes":["byte[]"] }]}
+,
+{
+  "name":"org.springframework.beans.ExtendedBeanInfoFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.springframework.beans.factory.Aware",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"org.springframework.beans.factory.BeanFactoryAware",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.springframework.cglib.core.MethodWrapper$MethodWrapperKey",
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"org.springframework.cglib.proxy.Enhancer$EnhancerKey",
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"org.springframework.context.annotation.Bean",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"autowire","parameterTypes":[] },
+    {"name":"autowireCandidate","parameterTypes":[] },
+    {"name":"destroyMethod","parameterTypes":[] },
+    {"name":"initMethod","parameterTypes":[] },
+    {"name":"name","parameterTypes":[] },
+    {"name":"value","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"org.springframework.context.annotation.Configuration",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"proxyBeanMethods","parameterTypes":[] },
+    {"name":"value","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"org.springframework.context.annotation.ConfigurationClassEnhancer$EnhancedConfiguration",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"org.springframework.context.annotation.ConfigurationClassPostProcessor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.springframework.context.event.DefaultEventListenerFactory",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.springframework.context.event.EventListenerMethodProcessor",
+  "methods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.springframework.core.annotation.AliasFor",
+  "queryAllDeclaredMethods":true,
+  "methods":[{"name":"annotation","parameterTypes":[] }]}
+,
+{
+  "name":"org.springframework.stereotype.Component",
+  "queryAllDeclaredMethods":true}
+,
+{
+  "name":"org.springframework.stereotype.Indexed",
+  "queryAllDeclaredMethods":true}
+
 ]
