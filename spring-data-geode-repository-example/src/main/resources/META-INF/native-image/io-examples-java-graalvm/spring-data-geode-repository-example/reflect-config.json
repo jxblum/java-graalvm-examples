@@ -64,7 +64,9 @@
   "allDeclaredFields":true,
   "allDeclaredClasses":true,
   "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true}
+  "queryAllDeclaredConstructors":true,
+  "methods": [{"name":"<init>","parameterTypes":[]}]
+}
 ,
 {
   "name":"io.examples.app.spring.data.geode.ExampleSpringDataGeodeApplication$JavaApplicationConfiguration",
@@ -88,26 +90,6 @@
   "name":"io.examples.app.spring.data.geode.UserRepository",
   "queryAllDeclaredMethods":true,
   "queryAllPublicMethods":true}
-,
-{
-  "name":"io.examples.app.spring.data.geode.User_Accessor_4tf8wu",
-  "queryAllPublicConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":["io.examples.app.spring.data.geode.User"] }]}
-,
-{
-  "name":"io.examples.app.spring.data.geode.User_Accessor_9y4oa3",
-  "queryAllPublicConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":["io.examples.app.spring.data.geode.User"] }]}
-,
-{
-  "name":"io.examples.app.spring.data.geode.User_Accessor_bngj7k",
-  "queryAllPublicConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":["io.examples.app.spring.data.geode.User"] }]}
-,
-{
-  "name":"io.examples.app.spring.data.geode.User_Accessor_z8ai07",
-  "queryAllPublicConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":["io.examples.app.spring.data.geode.User"] }]}
 ,
 {
   "name":"java.beans.PropertyVetoException"}
@@ -4290,7 +4272,7 @@
   "allDeclaredClasses":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"gemfireCache","parameterTypes":[] }],
+  "methods":[{"name":"<init>","parameterTypes":[]},{"name":"gemfireCache","parameterTypes":[] }],
   "queriedMethods":[{"name":"toString","parameterTypes":[] }]}
 ,
 {
@@ -4445,12 +4427,6 @@
   ]}
 ,
 {
-  "name":"org.springframework.data.querydsl.QuerydslPredicateExecutor"}
-,
-{
-  "name":"org.springframework.data.querydsl.ReactiveQuerydslPredicateExecutor"}
-,
-{
   "name":"org.springframework.data.repository.CrudRepository",
   "queryAllDeclaredMethods":true,
   "queryAllPublicMethods":true}
@@ -4501,9 +4477,6 @@
 ,
 {
   "name":"org.springframework.data.repository.query.QueryByExampleExecutor"}
-,
-{
-  "name":"org.springframework.data.repository.query.ReactiveQueryByExampleExecutor"}
 ,
 {
   "name":"org.springframework.lang.NonNullApi"}
