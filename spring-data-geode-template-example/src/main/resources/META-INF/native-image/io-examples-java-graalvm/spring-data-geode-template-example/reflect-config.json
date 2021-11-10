@@ -1,15 +1,9 @@
 [
 {
-  "name":"[Ljava.lang.String;"}
-,
-{
   "name":"[Lorg.apache.geode.cache.CacheListener;"}
 ,
 {
   "name":"[Lorg.springframework.core.annotation.AnnotationAttributes;"}
-,
-{
-  "name":"[Lorg.springframework.context.annotation.ImportBeanDefinitionRegistrar;"}
 ,
 {
   "name":"[Lorg.springframework.data.gemfire.client.Interest;"}
@@ -53,19 +47,20 @@
   "name":"com.sun.tools.attach.VirtualMachine"}
 ,
 {
-"name":"com.sun.tools.attach.VirtualMachineDescriptor"
-},
+  "name":"com.sun.tools.attach.VirtualMachineDescriptor"}
+,
 {
-  "name": "io.examples.app.spring.data.geode.ExampleSpringDataGeodeApplication$ApplicationConfiguration",
-  "allDeclaredFields": true,
-  "allDeclaredClasses": true,
-  "queryAllDeclaredMethods": true,
-  "queryAllDeclaredConstructors": true,
-  "methods": [
-    {"name": "<init>","parameterTypes": []},
-    {"name": "usersTemplate","parameterTypes": ["org.apache.geode.cache.GemFireCache"]}
-  ]
-},
+  "name":"io.examples.app.spring.data.geode.ExampleSpringDataGeodeApplication$ApplicationConfiguration",
+  "allDeclaredFields":true,
+  "allDeclaredClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[]},
+    {"name":"usersRegion","parameterTypes":["org.apache.geode.cache.GemFireCache"]},
+    {"name":"usersTemplate","parameterTypes":["org.apache.geode.cache.GemFireCache"]}
+  ]}
+,
 {
   "name":"io.examples.app.spring.data.geode.ExampleSpringDataGeodeApplication$User",
   "allDeclaredFields":true,
@@ -4136,11 +4131,11 @@
   "allDeclaredClasses":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"gemfireProperties","parameterTypes":[] }],
+  "methods":[{"name":"<init>","parameterTypes":[]},{"name":"gemfireProperties","parameterTypes":[]}],
   "queriedMethods":[
-    {"name":"add","parameterTypes":["java.util.Properties"] },
-    {"name":"setImportMetadata","parameterTypes":["org.springframework.core.type.AnnotationMetadata"] }]
-  }
+    {"name":"add","parameterTypes":["java.util.Properties"]},
+    {"name":"setImportMetadata","parameterTypes":["org.springframework.core.type.AnnotationMetadata"]}
+  ]}
 ,
 {
   "name":"org.springframework.data.gemfire.config.annotation.ClientCacheApplication",
@@ -4197,8 +4192,8 @@
   "allDeclaredClasses":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[] },{"name":"gemfireCache","parameterTypes":[] }],
-  "queriedMethods":[{"name":"toString","parameterTypes":[] }]}
+  "methods":[{"name":"<init>","parameterTypes":[]},{"name":"gemfireCache","parameterTypes":[]}],
+  "queriedMethods":[{"name":"toString","parameterTypes":[]}]}
 ,
 {
   "name":"org.springframework.data.gemfire.config.annotation.EnableEntityDefinedRegions",
@@ -4217,23 +4212,9 @@
 ,
 {
   "name":"org.springframework.data.gemfire.config.annotation.IndexConfiguration",
-  "allDeclaredFields":true,
-  "allDeclaredClasses":true,
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors": true,
+  "queryAllDeclaredConstructors":true,
   "methods":[{"name":"<init>","parameterTypes":[] }]}
 ,
-{
-  "name": "org.springframework.data.gemfire.config.annotation.EntityDefinedRegionsConfiguration",
-  "allDeclaredFields":true,
-  "allDeclaredClasses":true,
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors": true,
-  "methods": [{"name": "<init>","parameterTypes": []}],
-  "queriedMethods":[
-    {"name":"registerBeanDefinitions","parameterTypes":["org.springframework.core.type.AnnotationMetadata","org.springframework.beans.factory.support.BeanDefinitionRegistry"]}
-  ]
-},
 {
   "name":"org.springframework.data.gemfire.config.annotation.support.AbstractAnnotationConfigSupport",
   "allDeclaredFields":true,
@@ -4244,8 +4225,8 @@
     {"name":"setBeanClassLoader","parameterTypes":["java.lang.ClassLoader"] },
     {"name":"setBeanFactory","parameterTypes":["org.springframework.beans.factory.BeanFactory"] },
     {"name":"setEnvironment","parameterTypes":["org.springframework.core.env.Environment"] }
-  ]
-},
+  ]}
+,
 {
   "name":"org.springframework.data.gemfire.config.annotation.support.CacheTypeAwareRegionFactoryBean",
   "allDeclaredFields":true,
