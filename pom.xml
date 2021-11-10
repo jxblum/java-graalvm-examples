@@ -11,7 +11,7 @@
 	<packaging>pom</packaging>
 
 	<name>Examples for the GraalVM</name>
-	<description>Examples for the GraalVM in Java</description>
+	<description>Examples for the GraalVM written in Java.</description>
 	<url>https://www.graalvm.org/</url>
 
 	<organization>
