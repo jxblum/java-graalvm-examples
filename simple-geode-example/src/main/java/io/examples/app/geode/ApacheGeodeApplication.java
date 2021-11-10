@@ -19,13 +19,14 @@ import lombok.Setter;
 
 /**
  * The {@link ApacheGeodeApplication} class is a Java program that bootstraps (configures & initializes) Apache Geode,
- * stores then retrieves data in a Geode cache, and prints the result.
+ * stores then retrieves data in a local Apache Geode {@link ClientCache}, and prints the result.
  *
  * @author John Blum
  * @see java.lang.Runnable
  * @see java.io.Serializable
  * @see java.util.Properties
  * @see org.apache.geode.cache.GemFireCache
+ * @see org.apache.geode.cache.Region
  * @see org.apache.geode.cache.client.ClientCache
  * @see org.apache.geode.cache.client.ClientCacheFactory
  * @see org.apache.geode.distributed.ConfigurationProperties
