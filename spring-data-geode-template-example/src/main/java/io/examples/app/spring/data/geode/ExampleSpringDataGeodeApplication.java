@@ -5,7 +5,6 @@ import static org.assertj.core.api.Assertions.assertThat;
 import java.io.Serializable;
 
 import org.apache.geode.cache.GemFireCache;
-import org.apache.geode.cache.client.ClientRegionShortcut;
 
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -14,8 +13,8 @@ import org.springframework.context.annotation.DependsOn;
 import org.springframework.data.annotation.Id;
 import org.springframework.data.gemfire.GemfireTemplate;
 import org.springframework.data.gemfire.GemfireUtils;
+import org.springframework.data.gemfire.client.ClientRegionFactoryBean;
 import org.springframework.data.gemfire.config.annotation.ClientCacheApplication;
-import org.springframework.data.gemfire.config.annotation.EnableEntityDefinedRegions;
 import org.springframework.data.gemfire.mapping.annotation.Region;
 import org.springframework.lang.NonNull;
 import org.springframework.lang.Nullable;
@@ -51,10 +50,9 @@ public class ExampleSpringDataGeodeApplication implements Runnable {
 	}
 
 	@ClientCacheApplication(copyOnRead = true)
-	@EnableEntityDefinedRegions(basePackageClasses = User.class, clientRegionShortcut = ClientRegionShortcut.LOCAL)
+	//@EnableEntityDefinedRegions(basePackageClasses = User.class, clientRegionShortcut = ClientRegionShortcut.LOCAL)
 	static class ApplicationConfiguration {
 
-		/*
 		@Bean(USERS_REGION_NAME)
 		ClientRegionFactoryBean<Long, User> usersRegion(GemFireCache cache) {
 
@@ -65,7 +63,6 @@ public class ExampleSpringDataGeodeApplication implements Runnable {
 
 			return usersRegion;
 		}
-		*/
 
 		@Bean
 		@DependsOn(USERS_REGION_NAME)
