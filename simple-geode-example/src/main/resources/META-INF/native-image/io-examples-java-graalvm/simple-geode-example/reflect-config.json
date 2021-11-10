@@ -25,6 +25,10 @@
   ]}
 ,
 {
+  "name":"com.sun.management.internal.OperatingSystemImpl",
+  "queriedMethods":[{"name":"getProcessCpuTime","parameterTypes":[] }]}
+,
+{
   "name":"com.sun.tools.attach.VirtualMachine"}
 ,
 {
@@ -32,68 +36,6 @@
 ,
 {
   "name":"io.examples.app.geode.User"}
-,
-{
-  "name":"java.lang.Boolean",
-  "fields":[{"name":"TYPE"}]}
-,
-{
-  "name":"java.lang.Byte",
-  "fields":[{"name":"TYPE"}]}
-,
-{
-  "name":"java.lang.Character",
-  "fields":[{"name":"TYPE"}]}
-,
-{
-  "name":"java.lang.Double",
-  "fields":[{"name":"TYPE"}]}
-,
-{
-  "name":"java.lang.Float",
-  "fields":[{"name":"TYPE"}]}
-,
-{
-  "name":"java.lang.Integer",
-  "fields":[{"name":"TYPE"}]}
-,
-{
-  "name":"java.lang.Long",
-  "fields":[{"name":"TYPE"}]}
-,
-{
-  "name":"java.lang.Number"}
-,
-{
-  "name":"java.lang.Short",
-  "fields":[{"name":"TYPE"}]}
-,
-{
-  "name":"java.lang.String"}
-,
-{
-  "name":"java.lang.Void",
-  "fields":[{"name":"TYPE"}]}
-,
-{
-  "name":"java.lang.management.MemoryUsage",
-  "queryAllPublicMethods":true,
-  "methods":[{"name":"from","parameterTypes":["javax.management.openmbean.CompositeData"] }]}
-,
-{
-  "name":"java.math.BigDecimal"}
-,
-{
-  "name":"java.math.BigInteger"}
-,
-{
-  "name":"java.security.SecureRandomParameters"}
-,
-{
-  "name":"java.util.Date"}
-,
-{
-  "name":"javax.management.ObjectName"}
 ,
 {
   "name":"org.apache.geode.admin.internal.SystemMemberCacheEventProcessor$SystemMemberCacheMessage",
@@ -351,6 +293,7 @@
     {"name":"getOffHeapMemorySize","parameterTypes":[] },
     {"name":"getPostProcessor","parameterTypes":[] },
     {"name":"getRedisBindAddress","parameterTypes":[] },
+    {"name":"getRedisEnabled","parameterTypes":[] },
     {"name":"getRedisPassword","parameterTypes":[] },
     {"name":"getRedisPort","parameterTypes":[] },
     {"name":"getRedundancyZone","parameterTypes":[] },
@@ -1056,6 +999,10 @@
   "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
 ,
 {
+  "name":"org.apache.geode.internal.cache.DistributedPingMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
   "name":"org.apache.geode.internal.cache.DistributedPutAllOperation$EntryVersionsList",
   "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
 ,
@@ -1452,6 +1399,14 @@
 ,
 {
   "name":"org.apache.geode.internal.cache.ha.QueueRemovalMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.ha.QueueSynchronizationProcessor$QueueSynchronizationMessage",
+  "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
+,
+{
+  "name":"org.apache.geode.internal.cache.ha.QueueSynchronizationProcessor$QueueSynchronizationReplyMessage",
   "queriedMethods":[{"name":"<init>","parameterTypes":[] }]}
 ,
 {
