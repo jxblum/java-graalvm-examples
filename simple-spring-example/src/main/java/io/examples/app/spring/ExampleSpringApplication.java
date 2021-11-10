@@ -11,7 +11,7 @@ import org.springframework.util.Assert;
 import io.examples.app.spring.service.HelloService;
 
 /**
- * A simple Spring Java application (program).
+ * A simple Spring Java Application (program).
  *
  * @author John Blum
  * @see java.lang.Runnable
@@ -19,7 +19,7 @@ import io.examples.app.spring.service.HelloService;
  * @see org.springframework.context.annotation.AnnotationConfigApplicationContext
  * @see org.springframework.context.annotation.Bean
  * @see org.springframework.context.annotation.Configuration
- * @see HelloService
+ * @see io.examples.app.spring.service.HelloService
  * @since 1.0.0
  */
 @SuppressWarnings("unused")
@@ -29,11 +29,20 @@ public class ExampleSpringApplication implements Runnable {
 		new ExampleSpringApplication(args).run();
 	}
 
-	private static @NonNull ConfigurableApplicationContext newApplicationContext(Class<?>... configurationClases) {
+	@Configuration
+	static class ApplicationConfiguration {
+
+		@Bean
+		public HelloService helloService() {
+			return new HelloService() { };
+		}
+	}
+
+	private static @NonNull ConfigurableApplicationContext newApplicationContext(Class<?>... configurationClasses) {
 
 		AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext();
 
-		applicationContext.register(configurationClases);
+		applicationContext.register(configurationClasses);
 		applicationContext.registerShutdownHook();
 		applicationContext.refresh();
 
@@ -77,19 +86,12 @@ public class ExampleSpringApplication implements Runnable {
 
 		String name = arguments.length > 0 ? arguments[0] : null;
 
-		run(getApplicationContext().getBean(HelloService.class), name);
+		HelloService helloService = getApplicationContext().getBean(HelloService.class);
+
+		run(helloService, name);
 	}
 
 	protected void run(@NonNull HelloService helloService, @Nullable String name) {
 		log(helloService.sayHelloTo(name));
-	}
-
-	@Configuration
-	public static class ApplicationConfiguration {
-
-		@Bean
-		public HelloService helloService() {
-			return new HelloService() { };
-		}
 	}
 }
