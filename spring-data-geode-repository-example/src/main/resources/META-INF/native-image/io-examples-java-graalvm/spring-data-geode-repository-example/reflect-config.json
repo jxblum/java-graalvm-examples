@@ -81,37 +81,6 @@
   ]}
 ,
 {
-  "name":"io.examples.app.spring.data.geode.ExampleSpringDataGeodeApplicationIntegrationTests",
-  "allDeclaredFields":true,
-  "allPublicFields":true,
-  "allDeclaredClasses":true,
-  "queryAllDeclaredMethods":true,
-  "queryAllPublicConstructors":true,
-  "methods":[
-    {"name":"<init>","parameterTypes":[]},
-    {"name":"saveAndFindUserIsSuccessful","parameterTypes":[] }
-  ]}
-,
-{
-  "name":"io.examples.app.spring.data.geode.ExampleSpringDataGeodeApplicationIntegrationTests$TestConfiguration",
-  "allDeclaredFields":true,
-  "allDeclaredClasses":true,
-  "queryAllDeclaredMethods":true,
-  "queryAllDeclaredConstructors":true}
-,
-{
-  "name":"io.examples.app.spring.data.geode.User",
-  "allDeclaredFields":true,
-  "queryAllDeclaredMethods":true,
-  "queryAllPublicMethods":true,
-  "queryAllDeclaredConstructors":true}
-,
-{
-  "name":"io.examples.app.spring.data.geode.UserRepository",
-  "queryAllDeclaredMethods":true,
-  "queryAllPublicMethods":true}
-,
-{
   "name":"io.examples.app.spring.data.geode.model.User",
   "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
