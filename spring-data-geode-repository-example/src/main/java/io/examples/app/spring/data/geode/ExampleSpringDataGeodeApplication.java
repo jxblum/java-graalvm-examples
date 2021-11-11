@@ -14,12 +14,9 @@
  * limitations under the License.
  *
  */
-
 package io.examples.app.spring.data.geode;
 
 import static org.assertj.core.api.Assertions.assertThat;
-
-import java.io.Serializable;
 
 import org.apache.geode.cache.GemFireCache;
 import org.apache.geode.cache.client.ClientRegionShortcut;
@@ -30,28 +27,27 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 import org.springframework.context.annotation.Profile;
-import org.springframework.data.annotation.Id;
 import org.springframework.data.gemfire.client.ClientRegionFactoryBean;
 import org.springframework.data.gemfire.config.annotation.ClientCacheApplication;
+import org.springframework.data.gemfire.config.annotation.EnableEntityDefinedRegions;
 import org.springframework.data.gemfire.mapping.GemfireMappingContext;
-import org.springframework.data.gemfire.mapping.annotation.Region;
+import org.springframework.data.gemfire.repository.config.EnableGemfireRepositories;
 import org.springframework.data.gemfire.repository.support.GemfireRepositoryFactoryBean;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.lang.NonNull;
-import org.springframework.lang.Nullable;
 import org.springframework.util.Assert;
 
+import io.examples.app.spring.data.geode.model.User;
+import io.examples.app.spring.data.geode.repo.UserRepository;
 import lombok.AccessLevel;
-import lombok.EqualsAndHashCode;
 import lombok.Getter;
-import lombok.RequiredArgsConstructor;
-import lombok.Setter;
 
 /**
  * Example Spring Data for Apache Geode (SDG) Java application (program) that uses Spring Data
  * {@link CrudRepository Repositories} to access (store/persist and read) data from Apache Geode.
  *
  * @author John Blum
+ * @see io.examples.app.spring.data.geode.model.User
  * @see org.apache.geode.cache.GemFireCache
  * @see org.apache.geode.cache.Region
  * @see org.springframework.context.ConfigurableApplicationContext
@@ -70,24 +66,22 @@ import lombok.Setter;
 @SuppressWarnings("unused")
 public class ExampleSpringDataGeodeApplication implements Runnable {
 
-	private static final String ACTIVE_SPRING_PROFILE = "java-configuration";
+	private static final String ACTIVE_SPRING_PROFILE = "annotation-configuration";
 
 	public static void main(String[] args) {
 		new ExampleSpringDataGeodeApplication(args).run();
 	}
 
 	@ClientCacheApplication(name = "ExampleSpringDataGeodeApplicationUsingRepositories", copyOnRead = true)
-	@Import(JavaApplicationConfiguration.class)
-	//@Import({ AnnotationApplicationConfiguration.class, JavaApplicationConfiguration.class })
+	//@Import(JavaApplicationConfiguration.class)
+	@Import({ AnnotationApplicationConfiguration.class, JavaApplicationConfiguration.class })
 	static class ApplicationConfiguration { }
 
-	/*
 	@Configuration
 	@Profile("annotation-configuration")
 	@EnableEntityDefinedRegions(basePackageClasses = User.class, clientRegionShortcut = ClientRegionShortcut.LOCAL)
 	@EnableGemfireRepositories(basePackageClasses = UserRepository.class)
 	static class AnnotationApplicationConfiguration { }
-	*/
 
 	@Configuration
 	@Profile("java-configuration")
@@ -177,29 +171,3 @@ public class ExampleSpringDataGeodeApplication implements Runnable {
 		log("SUCCESS!!%n");
 	}
 }
-
-@Getter
-@Region("Users")
-@EqualsAndHashCode
-@RequiredArgsConstructor(staticName = "as")
-class User implements Serializable {
-
-	@Id
-	@Setter(AccessLevel.PRIVATE)
-	private Long id;
-
-	@lombok.NonNull
-	private final String name;
-
-	@NonNull User identifiedBy(@Nullable Long id) {
-		setId(id);
-		return this;
-	}
-
-	@Override
-	public String toString() {
-		return getName();
-	}
-}
-
-interface UserRepository extends CrudRepository<User, Long> { }
