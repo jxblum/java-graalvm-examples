@@ -1,6 +1,6 @@
 [
   {
-    "name":"io.examples.app.spring.data.geode.User"
+    "name":"io.examples.app.spring.data.geode.model.User"
   },
   {
     "name":"java.lang.Long"

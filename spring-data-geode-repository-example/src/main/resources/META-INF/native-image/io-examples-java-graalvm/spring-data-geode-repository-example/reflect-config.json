@@ -58,8 +58,7 @@
   "allDeclaredClasses":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods": [{"name":"<init>","parameterTypes":[]}]
-}
+  "methods":[{"name":"<init>","parameterTypes":[]}]}
 ,
 {
   "name":"io.examples.app.spring.data.geode.ExampleSpringDataGeodeApplication$ApplicationConfiguration",
@@ -67,8 +66,7 @@
   "allDeclaredClasses":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods": [{"name":"<init>","parameterTypes":[]}]
-}
+  "methods":[{"name":"<init>","parameterTypes":[]}]}
 ,
 {
   "name":"io.examples.app.spring.data.geode.ExampleSpringDataGeodeApplication$JavaApplicationConfiguration",
@@ -77,10 +75,29 @@
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
   "methods":[
-    {"name":"<init>","parameterTypes":[]},
-    {"name":"usersRegion","parameterTypes":["org.apache.geode.cache.GemFireCache"]},
-    {"name":"userRepository","parameterTypes":[]}
+    {"name":"<init>","parameterTypes":[] },
+    {"name":"userRepository","parameterTypes":[] },
+    {"name":"usersRegion","parameterTypes":["org.apache.geode.cache.GemFireCache"] }
   ]}
+,
+{
+  "name":"io.examples.app.spring.data.geode.ExampleSpringDataGeodeApplicationIntegrationTests",
+  "allDeclaredFields":true,
+  "allPublicFields":true,
+  "allDeclaredClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[]},
+    {"name":"saveAndFindUserIsSuccessful","parameterTypes":[] }
+  ]}
+,
+{
+  "name":"io.examples.app.spring.data.geode.ExampleSpringDataGeodeApplicationIntegrationTests$TestConfiguration",
+  "allDeclaredFields":true,
+  "allDeclaredClasses":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllDeclaredConstructors":true}
 ,
 {
   "name":"io.examples.app.spring.data.geode.User",
@@ -91,6 +108,18 @@
 ,
 {
   "name":"io.examples.app.spring.data.geode.UserRepository",
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true}
+,
+{
+  "name":"io.examples.app.spring.data.geode.model.User",
+  "allDeclaredFields":true,
+  "queryAllDeclaredMethods":true,
+  "queryAllPublicMethods":true,
+  "queryAllDeclaredConstructors":true}
+,
+{
+  "name":"io.examples.app.spring.data.geode.repo.UserRepository",
   "queryAllDeclaredMethods":true,
   "queryAllPublicMethods":true}
 ,
@@ -171,6 +200,7 @@
 ,
 {
   "name":"java.lang.Object",
+  "allDeclaredFields":true,
   "queryAllDeclaredMethods":true,
   "queryAllPublicMethods":true}
 ,
@@ -332,6 +362,9 @@
 ,
 {
   "name":"javax.management.ObjectName"}
+,
+{
+  "name":"javax.transaction.Transactional"}
 ,
 {
   "name":"jdk.internal.loader.BuiltinClassLoader",
@@ -4032,10 +4065,6 @@
   "queryAllDeclaredMethods":true}
 ,
 {
-  "name":"org.springframework.cglib.proxy.Enhancer$EnhancerKey",
-  "queryAllDeclaredMethods":true}
-,
-{
   "name":"org.springframework.context.ApplicationContextAware",
   "queryAllPublicMethods":true}
 ,
@@ -4080,30 +4109,28 @@
   "name":"org.springframework.context.annotation.ComponentScan",
   "queryAllDeclaredMethods":true,
   "methods":[
-    {"name":"value","parameterTypes":[]},
-    {"name":"basePackages","parameterTypes":[]},
-    {"name":"basePackageClasses","parameterTypes":[]},
-    {"name":"nameGenerator","parameterTypes":[]},
-    {"name":"scopeResolver","parameterTypes":[]},
-    {"name":"scopedProxy","parameterTypes":[]},
-    {"name":"resourcePattern","parameterTypes":[]},
-    {"name":"useDefaultFilters","parameterTypes":[]},
-    {"name":"includeFilters","parameterTypes":[]},
-    {"name":"excludeFilters","parameterTypes":[]},
-    {"name":"lazyInit","parameterTypes":[]}
-  ]
-}
+    {"name":"basePackageClasses","parameterTypes":[] },
+    {"name":"basePackages","parameterTypes":[] },
+    {"name":"excludeFilters","parameterTypes":[] },
+    {"name":"includeFilters","parameterTypes":[] },
+    {"name":"lazyInit","parameterTypes":[] },
+    {"name":"nameGenerator","parameterTypes":[] },
+    {"name":"resourcePattern","parameterTypes":[] },
+    {"name":"scopeResolver","parameterTypes":[] },
+    {"name":"scopedProxy","parameterTypes":[] },
+    {"name":"useDefaultFilters","parameterTypes":[] },
+    {"name":"value","parameterTypes":[] }
+  ]}
 ,
 {
   "name":"org.springframework.context.annotation.ComponentScan$Filter",
   "queryAllDeclaredMethods":true,
   "methods":[
-    {"name":"type","parameterTypes":[]},
-    {"name":"value","parameterTypes":[]},
-    {"name":"classes","parameterTypes":[]},
-    {"name":"pattern","parameterTypes":[]}
-  ]
-}
+    {"name":"classes","parameterTypes":[] },
+    {"name":"pattern","parameterTypes":[] },
+    {"name":"type","parameterTypes":[] },
+    {"name":"value","parameterTypes":[] }
+  ]}
 ,
 {
   "name":"org.springframework.context.annotation.Conditional",
@@ -4300,7 +4327,10 @@
   "allDeclaredClasses":true,
   "queryAllDeclaredMethods":true,
   "queryAllDeclaredConstructors":true,
-  "methods":[{"name":"<init>","parameterTypes":[]},{"name":"gemfireCache","parameterTypes":[] }],
+  "methods":[
+    {"name":"<init>","parameterTypes":[]},
+    {"name":"gemfireCache","parameterTypes":[]}
+  ],
   "queriedMethods":[{"name":"toString","parameterTypes":[] }]}
 ,
 {
@@ -4585,6 +4615,10 @@
 {
   "name":"org.springframework.stereotype.Indexed",
   "queryAllDeclaredMethods":true}
+,
+{
+  "name":"org.springframework.transaction.TransactionDefinition",
+  "allPublicFields":true}
 ,
 {
   "name":"org.springframework.transaction.interceptor.TransactionalProxy",

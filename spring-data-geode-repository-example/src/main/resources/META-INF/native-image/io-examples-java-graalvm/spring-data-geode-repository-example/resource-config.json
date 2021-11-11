@@ -35,6 +35,18 @@
       "pattern":"\\Qio/examples/app/spring/data/geode/\\E"
     }, 
     {
+      "pattern":"\\Qio/examples/app/spring/data/geode/model/User.class\\E"
+    }, 
+    {
+      "pattern":"\\Qio/examples/app/spring/data/geode/model/\\E"
+    }, 
+    {
+      "pattern":"\\Qio/examples/app/spring/data/geode/repo/UserRepository.class\\E"
+    }, 
+    {
+      "pattern":"\\Qio/examples/app/spring/data/geode/repo/\\E"
+    }, 
+    {
       "pattern":"\\Qorg/apache/geode/internal/GemFireVersion.properties\\E"
     }, 
     {
@@ -42,6 +54,9 @@
     }, 
     {
       "pattern":"\\Qorg/springframework/data/repository/CrudRepository.class\\E"
+    }, 
+    {
+      "pattern":"\\Qspring.properties\\E"
     }
   ]},
   "bundles":[]
