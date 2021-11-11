@@ -4077,8 +4077,33 @@
   ]}
 ,
 {
+  "name":"org.springframework.context.annotation.ComponentScan",
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"value","parameterTypes":[]},
+    {"name":"basePackages","parameterTypes":[]},
+    {"name":"basePackageClasses","parameterTypes":[]},
+    {"name":"nameGenerator","parameterTypes":[]},
+    {"name":"scopeResolver","parameterTypes":[]},
+    {"name":"scopedProxy","parameterTypes":[]},
+    {"name":"resourcePattern","parameterTypes":[]},
+    {"name":"useDefaultFilters","parameterTypes":[]},
+    {"name":"includeFilters","parameterTypes":[]},
+    {"name":"excludeFilters","parameterTypes":[]},
+    {"name":"lazyInit","parameterTypes":[]}
+  ]
+}
+,
+{
   "name":"org.springframework.context.annotation.ComponentScan$Filter",
-  "queryAllDeclaredMethods":true}
+  "queryAllDeclaredMethods":true,
+  "methods":[
+    {"name":"type","parameterTypes":[]},
+    {"name":"value","parameterTypes":[]},
+    {"name":"classes","parameterTypes":[]},
+    {"name":"pattern","parameterTypes":[]}
+  ]
+}
 ,
 {
   "name":"org.springframework.context.annotation.Conditional",
